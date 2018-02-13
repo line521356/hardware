@@ -13,7 +13,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
  * @author sunzhongshuai
  */
 @EntityScan("com.hardware.model")
-@EnableJpaRepositories(basePackages = {"com.hardware.dao","com.support.dao"},repositoryFactoryBeanClass = BaseRepositoryFactoryBean.class)
+@EnableJpaRepositories(basePackages = {"com.support.dao"},repositoryFactoryBeanClass = BaseRepositoryFactoryBean.class)
 @SpringBootApplication
 public class HardwareApplication {
     public static void main(String [] args){
